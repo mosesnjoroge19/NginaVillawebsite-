@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" content="width=device-width" name="viewportinitial-scale=1 maximum-scale=1" 
+            keywords="Ngina, VILLA">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+        <script type="text/javascript" src="Bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="Bootstrap/js/scrolling-nav.js"></script>
+        <link rel="shortcut icon"  type ="image/x-icon" href="Pictures/favicon.ico">
+        <title>NGINA VILLA</title>
+        <style> 
+            img{
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body style="background-image: url(Pictures/IMAG1025.jpg);
+                background-size:cover;
+                background-repeat: no-repeat;"> 
+        <div id="header">        
+            <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                                <img class="img-circle"  src="Pictures/homelogo.png" width="50px">
+                                <!-- configure a suitable navbar or heading -->
+                        </div>
+                        <div class="navbar-header">
+                            <ul class="nav navbar-nav" style="font-weight: bold; font-size: 15px;">
+                                <li><a style="color: white" class="active" href="Home.html">HOME</a></li>
+                                <li class="dropdown">
+                                        <a style="color: white" class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                            LOGIN
+                                        <span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li ><a style="color: black" href="t-login.html">As Tenant</a></li>
+                                                <li><a style="color: black" href="l-login.html">As Admin</a></li>
+                                            </ul>
+                                    </li>
+                                <li><a style="color: white" href="signup.html">SIGN UP</a>
+                                <li> <a style="color: white" class="active" href="about.html">
+                                    ABOUT US</a> </li>
+                                <li><a href="property.html" class="active" style="color:white">PROPERTY</a></li>
+                            </ul>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+        <div id="section2" class="well well-lg">
+            <fieldset>
+                <legend> <img src="Pictures/villa.jpg" width="150px" class="img-circle" 
+                    alt="icon"> <br> <p style="color: white">Log In</p></legend>
+                <form action="">
+                    <label for="">
+                        Email Address: <br>
+                        <input type="email" placeholder="Enter email address" name="email"> <br>
+                        Password: <br>
+                        <input type="password" placeholder="Enter password" name="psd"> <br> <br>
+                        <input type="submit" value="Log In" name="logbtn" class="btn btn-info text-center">
+                        <a class="btn btn-warning text-center" href="signup.html">Don't have an account?</a>
+                    </label>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

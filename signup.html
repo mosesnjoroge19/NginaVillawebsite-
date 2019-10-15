@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" content="width=device-width" name="viewportinitial-scale=1 maximum-scale=1" 
+            keywords="Ngina, VILLA">
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+        <script type="text/javascript" src="Bootstrap/js/jquery.min.js"></script>
+	    <script type="text/javascript" src="Bootstrap/js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="Bootstrap/js/scrolling-nav.js"></script>
+        <link rel="shortcut icon"  type ="image/x-icon" href="Pictures/favicon.ico">
+        <title>NGINA VILLA</title>
+    </head>
+    <body style="background-image: url(Pictures/IMAG0988.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                ">
+            <div id="header">        
+                    <nav class="navbar navbar-default navbar-fixed-top">
+                            <div class="container-fluid">
+                                <div class="navbar-header">
+                                        <img class="img-circle"  src="Pictures/homelogo.png" width="50px">
+                                        <!-- configure a suitable navbar or heading -->
+                                </div>
+                                <div class="navbar-header">
+                                    <ul class="nav navbar-nav" style="font-weight: bold; font-size: 15px;">
+                                        <li><a style="color: white" class="active" href="Home.html">HOME</a></li>
+                                        <li class="dropdown">
+                                                <a style="color: white" class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                    LOGIN
+                                                <span class="caret"></span></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li ><a style="color: black" href="t-login.html">As Tenant</a></li>
+                                                        <li><a style="color: black" href="l-login.html">As Admin</a></li>
+                                                    </ul>
+                                            </li>
+                                        <li><a style="color: white" href="signup.html">SIGN UP</a>
+                                        <li> <a style="color: white" class="active" href="about.html">
+                                            ABOUT US</a> </li>
+                                        <li><a href="property.html" class="active" style="color:white">PROPERTY</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+            </div>
+        <div id="section1" class="well well-lg2">
+            <fieldset>
+                <legend> <img width="100px" src="Pictures/HMS.jpg"
+                    class="img-circle" alt="sign up" > <br> <p style="color: white"
+                    > Sign Up</p> </legend>
+                    <form action="">
+                        <label for="">
+                            <div class="col-sm-6">
+                                Name: <br>
+                                <input type="text" name="Name" placeholder="Enter Name" required=""> <br>
+                                Gender: <br>
+                                <input type="radio" name="gender" value="male" status="checked"> Male 
+                                <input type="radio" name ="gender" value="female"> Female 
+                                <input type="radio" name="gender" value="Intersex">Intersex <br>
+                                Date-Of-Birth: <br>
+                                <input type="date" name="date"> <br>
+                                Username: <br>
+                                <input type="text" placeholder="Enter Username" name="usn"> <br>
+                            </div>
+                            <div class="col-sm-6">
+                                Email address: <br>
+                                <input type="email" placeholder="Enter email address" required=""> <br>
+                                Password: <br>
+                                <input type="password" name="psd" placeholder="Enter Password" required=""> <br>
+                                Confirm Password: <br>
+                                <input type="password" name="pswd" placeholder="Re-enter password" required=""> 
+                                <br> <br>
+                                <input type="Submit" name="submit" value="submit" 
+                                class="btn btn-success text-center">
+                                <input type="reset" name="Reset" value="reset"
+                                class="btn btn-danger text-center"> <br><br>
+                            </div>
+                            <p>Already have an account? <a href="t-login.html" 
+                                class="active">Log In</a></p>
+                        </label>
+                    </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
